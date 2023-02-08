@@ -1,0 +1,165 @@
+body{
+    margin: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-container{
+    font-family: Orbitron;
+   display: flex;
+   font-size: 0.8rem;
+   justify-content: space-between;
+   align-items: center;
+}
+.list{
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+.list li{
+    margin: 0 1rem;
+    text-align: center;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+.list-item:hover{
+    font-weight: 500;
+    border-bottom: 1.5px solid black;
+  
+}
+.button-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    margin-bottom: 1rem;
+}
+.navbar-container img{
+    width: 4rem;
+}
+.search-icon svg{
+    width: 1rem;
+    height: 1rem;
+}
+.search-icon{
+    margin-right: 0.5rem;
+}
+.nav-button{
+    border: 1.5px solid black;
+    font-family: Poppins;
+    background-color: white;
+    width: 5rem;
+    font-size: 80%;
+    padding: 0.2rem 0;
+    color: rgb(88, 88, 88);
+    border-radius: 6px;
+}
+
+.hero-container{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+img[alt = person-hero-iamge]{
+    width: 80%;
+}
+
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-heading{
+    font-size: 1.8rem;
+    font-family: Orbitron;
+    font-weight: 500;
+}
+.hero-description{
+    font-size: 0.5rem;
+    font-weight: 100;
+    font-family: Poppins;
+    text-align: center;
+    padding: 0 3rem;
+    margin-bottom: 2rem;
+
+}
+
+.hero-container-right div button{
+    border-radius: 3px;
+    font-family: Orbitron;
+    font-size: 0.5rem;
+}
+.button-email{
+    margin-right: 0.1rem;
+    border: 1px solid black;
+    padding: 0.1rem 0.6rem;
+    background-color: white;
+}
+.button-join{
+    margin-left: 0.1rem;
+    border: none;
+    padding: 0.1rem 0.4rem;
+    background-color: black;
+    color: white;
+}
+.contact-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 0.3rem;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 0.5rem;
+    font-weight: 300;
+}
+
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.icons span{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 8%;
+}
+.icons img{
+    height: 1rem;
+    width: 1rem;
+}
+
+.hero-container{
+    position: relative;
+}
+.square , .star ,.globe {
+    position: absolute;
+}
+.square img{
+    width: 20vw;
+}
+.square{
+    transform: translate(7.5rem,91%);
+    z-index: -5;
+}
+.star img{
+    width: 1.5rem;
+}
+.star{
+    transform: translate(26rem,20.5rem);
+}
+.globe img{
+    width: 1.8rem;
+}
+.globe{
+    transform: translate(30rem,0rem);
+}
