@@ -16,4 +16,4 @@ Adding image
 
 ## project link
 
-[![Live Project 1](https://img.shields.io/badge/project%201-netlify-green)](Link "https://anushkahtmlproject1.netlify.app/")
+[![Live Project 1](https://img.shields.io/badge/project%201-netlify-green)](https://anushkahtmlproject1.netlify.app/ "Project 1")
