@@ -1,10 +1,11 @@
 body{
-    margin: 0 2rem;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-
+.container{
+    margin-top: 2rem;
+    width: 70vw;
+}
 .navbar-container{
     font-family: Orbitron;
    display: flex;
@@ -20,7 +21,6 @@ body{
 .list li{
     margin: 0 1rem;
     text-align: center;
-    width: 2rem;
     display: flex;
     justify-content: center;
 
@@ -61,13 +61,14 @@ body{
 
 .hero-container{
     padding-top: 2rem;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 
 img[alt = person-hero-iamge]{
     width: 80%;
+    position: relative;
 }
 
 
@@ -78,12 +79,12 @@ img[alt = person-hero-iamge]{
     align-items: center;
 }
 .hero-heading{
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     font-family: Orbitron;
     font-weight: 500;
 }
 .hero-description{
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     font-weight: 100;
     font-family: Poppins;
     text-align: center;
@@ -98,12 +99,16 @@ img[alt = person-hero-iamge]{
     font-size: 0.5rem;
 }
 .button-email{
+    width: 11em;
+    height: 3em;
     margin-right: 0.1rem;
     border: 1px solid black;
     padding: 0.1rem 0.6rem;
     background-color: white;
 }
 .button-join{
+    width: 11em;
+    height: 3em;
     margin-left: 0.1rem;
     border: none;
     padding: 0.1rem 0.4rem;
@@ -114,11 +119,10 @@ img[alt = person-hero-iamge]{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
     margin-bottom: 0.3rem;
     font-family: Poppins;
     text-align: center;
-    font-size: 0.5rem;
+    font-size: 0.8em;
     font-weight: 300;
 }
 
@@ -134,32 +138,33 @@ img[alt = person-hero-iamge]{
     margin: 0 8%;
 }
 .icons img{
-    height: 1rem;
-    width: 1rem;
+    height: 1.2rem;
+    width: 1.2em;
 }
 
-.hero-container{
-    position: relative;
-}
-.square , .star ,.globe {
-    position: absolute;
-}
+
+
 .square img{
-    width: 20vw;
+    width: 15em;
 }
 .square{
-    transform: translate(7.5rem,91%);
+    position: absolute;
+    top: 5em;
+    left: 5em;
     z-index: -5;
 }
 .star img{
+    position: absolute;
     width: 1.5rem;
 }
 .star{
+    position: absolute;
     transform: translate(26rem,20.5rem);
 }
 .globe img{
     width: 1.8rem;
 }
 .globe{
+    position: absolute;
     transform: translate(30rem,0rem);
 }
