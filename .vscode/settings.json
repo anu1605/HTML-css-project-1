@@ -1,3 +1,7 @@
 {
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+   // don't forget the comma
+  "workbench.editorAssociations": {   
+      "*.md": "vscode.markdown.preview.editor",
+  }
 }
